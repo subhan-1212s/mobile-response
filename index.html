@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subhan - Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header class="hero">
+    <nav class="navbar">
+      <h1 class="logo">Subhan</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero-content">
+      <h2>Hello, I'm <span>Subhan</span></h2>
+      <p>Aspiring Full Stack Developer</p>
+      <a href="#projects" class="btn">View Projects</a>
+    </div>
+  </header>
+
+  <section id="about" class="section about">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <img src="/ghibli.jpg" alt="Subhan">
+      <div>
+        <p>I am a passionate developer with a love for clean code. Currently pursuing B.Sc. Computer Science and building full-stack websites using MERN stack.</p>
+        <div class="skills">
+          <i class="fab fa-html5"></i>
+          <i class="fab fa-css3-alt"></i>
+          <i class="fab fa-js"></i>
+          <i class="fab fa-react"></i>
+          <i class="fab fa-node"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="/preview1.png" alt="Project 1">
+        <h3>Todo App</h3>
+        <p>Simple, responsive todo app with add/delete features.</p>
+        <a href="https://github.com/subhan-1212s/To-Do-List.git" class="btn-sm">GitHub</a>
+      </div>
+      <div class="project-card">
+        <img src="/preview2.png" alt="Project 2">
+        <h3>Landing Website</h3>
+        <p>Real-time Landing website with responsiveness.</p>
+        <a href="https://github.com/subhan-1212s/TechNova-Landing-Page.git" class="btn-sm">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <h2>Contact Me</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 Subhan. All rights reserved.</p>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+  </footer>
+</body>
+
+</html>
